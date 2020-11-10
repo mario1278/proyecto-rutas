@@ -1,5 +1,5 @@
 input.onButtonPressed(Button.A, function () {
-    for (let index = 0; index <= 5; index++) {
+    for (let index = 0; index <= 1999; index++) {
         basic.showNumber(RUTAS[index])
     }
 })
